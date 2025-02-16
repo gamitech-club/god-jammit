@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="CardTemplate" src="project://database/Assets/UI/Templates/CardTemplate.uxml?fileID=9197481963319205126&amp;guid=d827c2e3987e20b4296f8ce0e6709d97&amp;type=3#CardTemplate" />
+    <Style src="project://database/Assets/UI/RootStyle.uss?fileID=7433441132597879392&amp;guid=446b879335f36d6438888c437252e6e5&amp;type=3#RootStyle" />
+    <Style src="project://database/Assets/UI/Menus/GunUpgradeMenuStyle.uss?fileID=7433441132597879392&amp;guid=e341ea57a4dc98a4ea396e1c59e7050e&amp;type=3#GunUpgradeMenuStyle" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; transition-property: opacity, scale, translate; transition-duration: 0.3s, 0.3s, 0.3s; background-color: rgba(0, 0, 0, 0.7); transition-timing-function: ease-in-out-circ, ease-in-out-circ, ease-in-out-circ;">
+        <engine:Label text="Choose an upgrade" style="-unity-text-align: upper-center; font-size: 32px; color: rgb(227, 207, 180); margin-top: 85px; margin-bottom: 25px;" />
+        <engine:VisualElement name="CardsContainer" style="flex-direction: row; flex-grow: 1; justify-content: center; align-items: flex-start;">
+            <engine:Instance template="CardTemplate" name="ReloadTimeCard" />
+            <engine:Instance template="CardTemplate" name="DamageCard" />
+            <engine:Instance template="CardTemplate" name="JamChanceCard" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

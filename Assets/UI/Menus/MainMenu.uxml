@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/RootStyle.uss?fileID=7433441132597879392&amp;guid=446b879335f36d6438888c437252e6e5&amp;type=3#RootStyle" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; transition-property: translate; transition-duration: 0.3s; padding-top: 48px; padding-bottom: 48px; align-items: center;">
+        <engine:VisualElement style="background-image: url(&quot;project://database/Assets/Sprite/GodJammit.png?fileID=2800000&amp;guid=3f8197cd8ea70f14981c9cf47bf7299f&amp;type=3#GodJammit&quot;); height: 160px; -unity-background-scale-mode: scale-to-fit; width: 100%;" />
+        <engine:Label text="HIGHSCORE&#10;&lt;color=yellow&gt;&lt;size=24&gt;???&lt;/size&gt;&lt;/color&gt;" name="HighscoreLabel" style="color: rgb(255, 255, 255); -unity-text-align: upper-center; font-size: 16px; margin-top: 54px; margin-bottom: 25px;" />
+        <engine:VisualElement>
+            <engine:Button text="Play" name="PlayButton" class="btn" />
+            <engine:Button text="Settings" name="SettingsButton" class="btn" />
+            <engine:Button text="Credits" name="CreditsButton" class="btn" />
+            <engine:Button text="Quit" name="QuitButton" class="btn" />
+        </engine:VisualElement>
+        <engine:Label text="vX.X.X" name="VersionLabel" style="position: absolute; bottom: 16px; right: 16px;" />
+    </engine:VisualElement>
+</engine:UXML>

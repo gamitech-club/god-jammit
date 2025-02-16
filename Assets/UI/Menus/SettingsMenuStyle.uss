@@ -1,0 +1,71 @@
+.slider {
+    font-size: 20px;
+    background-color: rgb(227, 207, 180);
+    border-width: 4px;
+    border-color: black;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.slider .unity-label {
+    margin-right: 16px;
+    color: rgb(43, 40, 33);
+    min-width: 210px;
+}
+
+.slider #unity-tracker {
+    border-width: 0;
+    background-color: rgb(43, 40, 33);
+}
+
+.slider #unity-dragger {
+    width: 10px;
+    border-width: 0;
+    background-color: rgb(98, 76, 60);
+}
+
+.slider:focus,
+.slider:hover {
+    border-color: white;
+}
+
+.toggle {
+    font-size: 20px;
+    background-color: rgb(227, 207, 180);
+    border-width: 4px;
+    border-color: black;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.toggle .unity-label {
+    min-width: 350px;
+    color: rgb(43, 40, 33);
+}
+
+.toggle #unity-checkmark {
+    background-color: #2b2821;
+    -unity-background-image-tint-color: white;
+}
+
+.toggle:focus,
+.toggle:hover {
+    border-color: white;
+}
+
+.space-bottom {
+    margin-bottom: 8px;
+}
+
+#Container.in-pause-menu {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.in-pause-menu #SettingsLabel {
+    color: transparent;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}

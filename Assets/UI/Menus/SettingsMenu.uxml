@@ -1,0 +1,15 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/RootStyle.uss?fileID=7433441132597879392&amp;guid=446b879335f36d6438888c437252e6e5&amp;type=3#RootStyle" />
+    <Style src="project://database/Assets/UI/Menus/SettingsMenuStyle.uss?fileID=7433441132597879392&amp;guid=3a732227262735d4e9adbff6e9bb808f&amp;type=3#SettingsMenuStyle" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; transition-property: translate; transition-duration: 0.3s; padding-top: 48px; padding-bottom: 48px; align-items: center;">
+        <engine:Button text="&lt; Back" name="BackButton" class="btn btn-back" />
+        <engine:Label text="SETTINGS" name="SettingsLabel" style="font-size: 72px; margin-bottom: 87px;" />
+        <engine:VisualElement style="width: 570px;">
+            <engine:Slider label="Master Vol" name="MasterVolumeSlider" high-value="1" value="0.5" class="slider space-bottom" />
+            <engine:Slider label="Music Vol" value="0.5" high-value="1" name="MusicVolumeSlider" class="slider space-bottom" />
+            <engine:Slider label="SFX Vol" value="0.5" high-value="1" name="SFXVolumeSlider" class="slider space-bottom" />
+            <engine:Toggle label="Screen Shake" name="CameraShakeToggle" class="toggle space-bottom" />
+            <engine:Button text="Reset Settings" name="ResetButton" class="btn space-bottom" style="background-color: rgb(176, 58, 72); color: rgb(227, 207, 180);" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

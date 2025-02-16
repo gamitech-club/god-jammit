@@ -1,0 +1,5 @@
+.btn-card #ImageElement {
+    background-image: url("project://database/Assets/Sprite/UpgradeJamChance.png?fileID=2800000&guid=7f88014c43032c94aa2e8a1c47761fab&type=3#UpgradeJamChance");
+    width: 185px;
+    height: 185px;
+}

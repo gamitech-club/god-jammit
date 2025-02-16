@@ -1,0 +1,37 @@
+.btn-card {
+    width: 320px;
+    height: 420px;
+    margin: 0;
+    margin-right: 12px;
+    padding: 0;
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.btn-card #CardLabel {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-width: 4px;
+    border-color: #2b2821;
+    font-size: 28px;
+    color: white;
+    background-color: rgb(98, 76, 60);
+}
+
+.btn-card #ImageElement {
+    align-self: center;
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.btn-card #DescriptionLabel {
+    padding-left: 8px;
+    padding-right: 8px;
+    white-space: pre-wrap;
+    font-size: 18px;
+    -unity-text-align: upper-left;
+    word-spacing: -40px;
+}
+.btn-card:hover #CardLabel,
+.btn-card:focus #CardLabel {
+    border-color: white;
+}

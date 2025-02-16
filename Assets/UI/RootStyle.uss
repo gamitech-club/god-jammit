@@ -1,0 +1,52 @@
+:root {
+    color: rgb(43, 40, 33);
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.25);
+    -unity-font-definition: url("project://database/Assets/Fonts/PrStartk.ttf?fileID=12800000&guid=b7d2ad3386f29c04795c9552b215aa19&type=3#PrStartk");
+    -unity-paragraph-spacing: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: rgb(227, 207, 180);
+    border-color: rgb(43, 40, 33);
+    border-width: 4px;
+}
+
+.btn:focus {
+    border-color: white;
+}
+
+.btn:hover {
+    border-color: white;
+}
+
+.btn-ghost {
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.6);
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-ghost:focus {
+    color: black;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    background-color: white;
+}
+
+.btn-ghost:hover {
+    color: black;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    background-color: white;
+}
+
+.btn-ghost:active {
+    background-color: rgb(225, 225, 225);
+}
+
+.btn-back {
+    position: absolute;
+    top: 32px;
+    left: 42px;
+}
