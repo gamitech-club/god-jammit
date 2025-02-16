@@ -6,6 +6,8 @@ A Unity game developed in three days for BGD Jam 2025, themed "OH NO! IT'S JAMME
 
 [![Itch.io](https://img.shields.io/badge/Itch.io-f75b5b?style=for-the-badge&logo=Itch.io&logoColor=white)](https://abazuzy.itch.io/god-jammit)
 
+Gameplay Preview: https://youtu.be/i2EPynknRlo
+
 ### Description
 
 Play as a pig (boar they said) and try to fight a bunch of demons that are coming to your barn, with a pistol on your tail, you're ready to kill as many demons as you can!
@@ -30,3 +32,11 @@ Play as a pig (boar they said) and try to fight a bunch of demons that are comin
 1. [DOTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676)
 2. [Easy Transitions](https://assetstore.unity.com/packages/tools/gui/easy-transitions-225607)
 3. [Scene Reference Attribute](https://github.com/KyleBanks/scene-ref-attribute)
+
+## Screenshots
+
+![Screenshot 1](https://github.com/user-attachments/assets/b6c79b15-1bb7-4dc1-8380-b70c833186b7)
+![Screenshot 2](https://github.com/user-attachments/assets/99e1524e-e0b3-4f78-980d-1aca9b9d3e99)
+![Screenshot 3](https://github.com/user-attachments/assets/aef58f09-b859-4034-89e4-149c887e7d30)
+
+
