@@ -35,8 +35,6 @@ Play as a pig (boar they said) and try to fight a bunch of demons that are comin
 
 ## Screenshots
 
-![Screenshot 1](https://github.com/user-attachments/assets/b6c79b15-1bb7-4dc1-8380-b70c833186b7)
-![Screenshot 2](https://github.com/user-attachments/assets/99e1524e-e0b3-4f78-980d-1aca9b9d3e99)
-![Screenshot 3](https://github.com/user-attachments/assets/aef58f09-b859-4034-89e4-149c887e7d30)
-
-
+![1](https://github.com/user-attachments/assets/214f0006-e073-46ed-a4bf-5bb614975e55)
+![2](https://github.com/user-attachments/assets/248aae19-ae57-4bf7-b8ed-aa561e66ec84)
+![3](https://github.com/user-attachments/assets/15cd98be-4132-45a3-9626-4aa8313026ba)
