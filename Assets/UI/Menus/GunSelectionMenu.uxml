@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="CardTemplate" src="project://database/Assets/UI/Templates/CardTemplate.uxml?fileID=9197481963319205126&amp;guid=d827c2e3987e20b4296f8ce0e6709d97&amp;type=3#CardTemplate" />
+    <Style src="project://database/Assets/UI/RootStyle.uss?fileID=7433441132597879392&amp;guid=446b879335f36d6438888c437252e6e5&amp;type=3#RootStyle" />
+    <Style src="project://database/Assets/UI/Menus/GunSelectionMenuStyle.uss?fileID=7433441132597879392&amp;guid=6aaf145426c778a49adc50c297a93959&amp;type=3#GunSelectionMenuStyle" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; transition-property: opacity, scale, translate; transition-duration: 0.2s, 1s, 0.3s; background-color: rgba(0, 0, 0, 0.7); transition-timing-function: ease-out-cubic, ease, ease;">
+        <engine:Label text="Choose your starting gun" style="-unity-text-align: upper-center; font-size: 32px; color: rgb(227, 207, 180); margin-top: 85px; margin-bottom: 25px;" />
+        <engine:VisualElement name="CardsContainer" style="flex-direction: row; flex-grow: 1; justify-content: center; align-items: flex-start;">
+            <engine:Instance template="CardTemplate" />
+            <engine:Instance template="CardTemplate" />
+            <engine:Instance template="CardTemplate" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

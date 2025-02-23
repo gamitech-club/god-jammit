@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/RootStyle.uss?fileID=7433441132597879392&amp;guid=446b879335f36d6438888c437252e6e5&amp;type=3#RootStyle" />
+    <Style src="project://database/Assets/UI/Templates/CardTemplateStyle.uss?fileID=7433441132597879392&amp;guid=3d33d586f61d2a74a94d98ffed4bf3f3&amp;type=3#CardTemplateStyle" />
+    <engine:Button class="btn btn-card">
+        <engine:Label text="TITLE" name="CardLabel" />
+        <engine:VisualElement name="ImageElement" />
+        <engine:Label text="Lorem ipsum dolor sit amet lmao idk what to fill here" name="DescriptionLabel" />
+    </engine:Button>
+</engine:UXML>

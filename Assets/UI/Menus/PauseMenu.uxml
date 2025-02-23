@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/RootStyle.uss?fileID=7433441132597879392&amp;guid=446b879335f36d6438888c437252e6e5&amp;type=3#RootStyle" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; transition-property: translate, opacity, scale; transition-duration: 0.3s, 0.3s, 0.3s; padding-top: 186px; padding-bottom: 48px; align-items: center; background-color: rgba(0, 0, 0, 0.7);">
+        <engine:Label text="PAUSED" style="margin-bottom: 39px; color: rgb(227, 207, 180); font-size: 32px;" />
+        <engine:VisualElement>
+            <engine:Button text="Resume" name="ResumeButton" class="btn" />
+            <engine:Button text="Settings" name="SettingsButton" class="btn" />
+            <engine:Button text="Restart" name="RestartButton" class="btn" />
+            <engine:Button text="Main Menu" name="MainMenuButton" class="btn" />
+            <engine:Button text="Quit" name="QuitButton" class="btn" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

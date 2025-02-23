@@ -1,0 +1,5 @@
+.btn-card #ImageElement {
+    background-image: url("project://database/Assets/Sprite/Pistol.png?fileID=2800000&guid=9a0f0e4c85fdfd04eafec4106012fe9c&type=3#Pistol");
+    width: 185px;
+    height: 138px;
+}
