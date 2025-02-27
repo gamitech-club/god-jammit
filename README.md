@@ -33,6 +33,8 @@ Play as a pig (boar they said) and try to fight a bunch of demons that are comin
 2. [Easy Transitions](https://assetstore.unity.com/packages/tools/gui/easy-transitions-225607)
 3. [Scene Reference Attribute](https://github.com/KyleBanks/scene-ref-attribute)
 
+Unity Version: 6000.0.27f1
+
 ## Screenshots
 
 ![1](https://github.com/user-attachments/assets/214f0006-e073-46ed-a4bf-5bb614975e55)
